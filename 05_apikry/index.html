@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <center>
+<H1 class="titu">Cotizar Criptomonedas</H1></center>
+<hr>
+<hr>
+<img  class="imagi" src="img/criptomomnedas.png" alt="">
+
+<h1 class="subti" > Elige tu moneda</h1>
+
+<div class="select" id="select1">
+    <select id="moneda" onchange="cotizarmone()">
+      <option value="">Selecione la moneda</option>
+      <option value="USD">Dolar</option>
+      <option value="MXN">Peso Mexicano</option>
+      <option value="EUR">Euro</option>
+      <option value="GBP">Libra esterlina</option>
+    </select>
+  </div>
+  <h1 class="subti2"  > Elige tu moneda</h1>
+
+  <div class="select" id="select2">
+    <select id="sel1"  onchange="cotizarmone()">
+      
+    </select>
+  </div>
+
+<button onclick="cotizarmone()">
+    <h1>Cotizar</h1>
+</button>
+
+
+<div id="result"> </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

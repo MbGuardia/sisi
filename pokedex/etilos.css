@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/ZqCwNUM.jpg);
+    height: 100vh; 
+}
+.pokedex{
+    top: 130px;
+    left: 340px;
+    position: absolute;
+    border-radius:3% ;
+    border: 2px solid black;
+    width: 500px;
+    height:550px;
+    background: #dc0a2d;
+}
+.circ1{
+    position: relative;
+    top: 25px;
+    left: 20px;
+background: whitesmoke;
+border-radius: 100%;
+width: 95px;
+height: 95px;
+border: 3px solid black;
+
+}
+.circ2{
+    position: relative;
+    top:-62px ;
+    left: 28px;
+background: rgb(68, 127, 255);
+border-radius: 100%;
+width: 80px;
+height: 80px;
+}
+.circ3{
+    position: relative;
+    top:-133px ;
+    left: 37.5px;
+background: rgb(148, 219, 255);
+border-radius: 100%;
+width: 60px;
+height: 60px;
+
+}
+.circ4{
+    position: relative;
+    top:-205px ;
+    left: 120px;
+background: rgb(250, 1, 1);
+border-radius: 100%;
+width: 20px;
+height: 20px;
+border: 2px solid black;
+}
+.circ5{
+    position: relative;
+    top:-225px ;
+    left: 150px;
+background: rgb(234, 255, 0);
+border-radius: 100%;
+width: 20px;
+height: 20px;
+border: 2px solid black;
+}
+.circ6{
+    position: relative;
+    top:-245px ;
+    left: 180px;
+background: rgb(43, 255, 0);
+border-radius: 100%;
+width: 20px;
+height: 20px;
+
+border: 2px solid black;
+}
+
+.linea1{
+    left: 80px;
+    top: -240px;
+    transform: rotate(90deg);
+    position: relative;
+    width: 15px;
+    height: 180px;
+    background: #810016;
+}
+.linea2{
+    left: 200px;
+    top: -411px;
+    transform: rotate(45deg);
+    position: relative;
+    width: 10px;
+    height: 100px;
+    background: #810016;
+}
+.linea3{
+    left: 333px;
+    top: -598px;
+    transform: rotate(90deg);
+    position: relative;
+    width: 10px;
+    height: 200px;
+    background: #810016;
+}
+.linea4{
+    left: 467px;
+    top: -1140px;
+    transform: rotate(90deg);
+position: relative;
+    width: 4px;
+    height: 59px;
+    background: black;
+}
+.linea5{
+    left: 467px;
+    top: -855px;
+    transform: rotate(90deg);
+position: relative;
+    width: 4px;
+    height: 59px;
+    background: black;
+}
+.cilin1{
+    border-radius: 3%;
+    border:1px solid black;
+    position: relative;
+    left: 438px;
+    top: -703px;
+    width: 60px;
+    height: 476px;
+
+    background: rgb(220,10,45);
+    background: linear-gradient(90deg, rgba(220,10,45,1) 62%, rgba(247,196,208,1) 76%, rgba(255,255,255,1) 79%, rgba(251,224,229,1) 82%, rgba(220,10,45,1) 86%);
+}
+.imgpokemo{
+    border-radius: 3%;
+        position: relative;
+    left: 50px;
+    top: -1190px;
+    width:330px ;
+    height: 230px;
+    background: #e1e1e0;
+}
+#imgpokemon{
+    border-radius: 3%;
+    position: relative;
+left: 95px;
+top: -1393px;
+width:240px ;
+height: 180px;
+background: #232323; 
+}
+
+.cru1{
+    left:330px ;
+    top: -1345px;
+    position: relative;
+    height: 75px;
+    width: 30px;
+    background:#222222 ;
+}
+.cru2{
+    left:330px ;
+    top: -1420px;
+    position: relative;
+    height: 75px;
+    width: 30px;
+    background:#222222 ;
+    transform: rotate(90deg);
+    
+}
+.circ{
+    border: 2px solid black;
+    left:334px ;
+    top: -1467px;
+    border-radius: 100%;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background:#222222 ;
+}
+#nombrepoke{
+    left:120px ;
+    top: -1510px;
+    position: relative;
+    height:70px;
+    width: 150px;
+    background:#66ad73 ;
+}
+.but{
+border-radius: 100%;
+    left:30px ;
+    top: -1580px;
+    position: relative;
+    height:40px;
+    width: 40px;
+    background:#222222 ;
+}
+.pokedex2{
+    top: 269px;
+    left: 839.30px;
+    position: absolute;
+ 
+    border: 12px solid #810016;
+    width: 450px;
+    height:411px;
+    background: #dc0a2d;
+}
+
+.lu1{
+    position: relative;
+    top:-1873px ;
+    left: 173px;
+background: #810016;
+border-radius: 100%;
+width: 13px;
+height: 13px;
+border: 2px solid black;
+}
+.lu2{
+    position: relative;
+    top:-1885.90px ;
+    left: 215px;
+background: #810016;
+border-radius: 100%;
+width: 13px;
+height: 13px;
+border: 2px solid black;
+}
+.lu3{
+    position: relative;
+    top:-1698px ;
+    left: 60px;
+background: #810016;
+border-radius: 100%;
+width: 20px;
+height: 20px;
+border: 2px solid black;
+}
+.arrii{
+    left: -11.99px;
+    top: -77px;
+    position: relative;
+width: 165px;
+height: 80px;
+background: #dc0a2d;
+border-left: 12px solid #810016;
+border-top: 12px solid #810016;
+}
+
+.triangu {
+    transform: rotate(10deg);
+        position:relative ;
+    top: -137px;
+    left: 142px;
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #dc0a2d;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+}
+.linea6{
+    left: 185px;
+    top: -277px;
+    transform: rotate(127deg);
+    position: relative;
+    width: 10px;
+    height: 115px;
+    background: #810016;
+}
+#datos{
+    border-radius: 2%;
+    position: relative;
+    top: -260px;
+    left: 65px;
+    width: 300px;
+    height: 130px;
+    background:#222222 ;
+}
+.mostpok{
+    position: relative;
+    top: -160px;
+    left: 30px;
+    background: #e1e1e0;
+    width: 190px;
+    height:40px;
+}
+.azu1{
+    position: relative;
+    top: -285px;
+    left: 65px;
+    background: #29acff;
+    width: 300px;
+    height: 25px;
+    border: 2px solid black;
+}
+.lin1{
+    position: relative;
+    top: -335px;
+    left: 125px;
+    background: black;
+    width: 2px;
+    height: 50px;
+}
+.lin2{
+    position: relative;
+    top: -385px;
+    left: 190px;
+    background: black;
+    width: 2px;
+    height: 50px;
+}
+.lin3{
+    position: relative;
+    top: -435px;
+    left: 255px;
+    background: black;
+    width: 2px;
+    height: 50px;
+}
+.lin4{
+    position: relative;
+    top: -485px;
+    left:305px;
+    background: black;
+    width: 2px;
+    height: 50px;
+}
+.circb{
+    position: relative;
+    top: -420px;
+    left:330px;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background: #ddc700;
+}
+.recta1{
+    position: relative;
+    border-radius: 10%;
+    top: -500px;
+    left:290px;
+    width: 40px;
+    height: 10px;
+    background: #232323;
+}
+.recta2{
+    position: relative;
+    border-radius: 10%;
+    top: -510px;
+    left:340px;
+    width: 40px;
+    height: 10px;
+    background: #232323;
+}
+#mostpoke{
+    position: relative;
+    top: -475px;
+    left:340px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background: #fff7b1;
+}
+
